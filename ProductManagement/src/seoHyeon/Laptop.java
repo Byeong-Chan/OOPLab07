@@ -1,6 +1,9 @@
 package seoHyeon;
 
-public class Laptop implements Networked{
+import byeongChan.Product;
+import k_package.DataStorage;
+
+public class Laptop implements Networked,DataStorage{
 	private double totalCapacity;
 	private double usedCapacity;
 	public Laptop(double tc, double uC){
