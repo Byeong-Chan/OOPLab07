@@ -1,6 +1,6 @@
 package seoHyeon;
 
-public class Laptop {
+public class Laptop implements Networked{
 	private double totalCapacity;
 	private double usedCapacity;
 	public Laptop(double tc, double uC){
