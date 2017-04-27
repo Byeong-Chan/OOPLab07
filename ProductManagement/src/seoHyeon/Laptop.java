@@ -6,10 +6,6 @@ import k_package.*;
 public class Laptop extends Product implements Networked,DataStorage{
 	private double totalCapacity;
 	private double usedCapacity;
-	public Laptop(double tc, double uC){
-		totalCapacity=tc;
-		usedCapacity=uC;
-	}
 	
 	public double getFreeCapacity(){
 		return 1.0;
@@ -44,9 +40,5 @@ public class Laptop extends Product implements Networked,DataStorage{
 	
 	public String getName(){
 		return this.getClass().getSimpleName();
-	}
-	public static void main(String[] args){
-		Laptop l=new Laptop(2.1,4);
-		System.out.println(l.getName());
 	}
 }
