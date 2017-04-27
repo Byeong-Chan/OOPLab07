@@ -1,7 +1,7 @@
 package seoHyeon;
 
-import byeongChan.Product;
-import k_package.DataStorage;
+import byeongChan.*;
+import k_package.*;
 
 public class Laptop extends Product implements Networked,DataStorage{
 	private double totalCapacity;
