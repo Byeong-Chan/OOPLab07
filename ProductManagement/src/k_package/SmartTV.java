@@ -19,7 +19,7 @@ public class SmartTV extends Product implements Networked{
 	
 	public String getName()
 	{
-		return "LGTV";
+		return this.getClass().getSimpleName();
 	}
 
 	public int getChannel() {
