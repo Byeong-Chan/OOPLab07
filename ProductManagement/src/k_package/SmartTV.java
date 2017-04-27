@@ -1,8 +1,9 @@
 package k_package;
 
-import byeongChan.Product;
+import byeongChan.*;
+import seoHyeon.*;
 
-public class SmartTV extends Product{
+public class SmartTV extends Product implements Networked{
 	
 	private int channel;
 	
