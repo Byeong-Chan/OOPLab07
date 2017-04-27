@@ -1,6 +1,6 @@
 package byeongChan;
 
-public class Toaster extends Product {
+public class Toaster extends Product implements Cooker {
 	
 	public String prepareFood() {
 		return "will make food.";
