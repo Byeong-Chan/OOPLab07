@@ -3,7 +3,7 @@ package seoHyeon;
 import byeongChan.Product;
 import k_package.DataStorage;
 
-public class Laptop implements Networked,DataStorage{
+public class Laptop extends Product implements Networked,DataStorage{
 	private double totalCapacity;
 	private double usedCapacity;
 	public Laptop(double tc, double uC){
