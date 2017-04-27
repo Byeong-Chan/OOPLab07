@@ -1,5 +1,4 @@
 package byeongChan;
-import java.util.Scanner;
 
 public class Toaster extends Product {
 	
